@@ -321,19 +321,34 @@
            </section>
 
     </main>
-    <footer class="bg-[#179800]">
-        <!-- This is the footer section container -->
-        <div class="flex justify-between max-w-screen-xl mx-auto pb-32 pt-60">
-            <div class="w-[30%]">
-                <img class="w-40 mb-3" src="c2-assets/logo-footer.png" alt="">
-                <p class="text-white text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+    <footer class="bg-[#179800] relative">
+        <!-- This is the challenge  -->
+
+        <section class="mx-auto flex flex-col lg:flex-row items-center justify-around bg-primary-bg rounded-xl absolute left-1/2 -translate-x-1/2 -translate-y-1/2 py-4 lg:py-0 w-[90%] lg:max-w-screen-xl">
+        <div class="py-4">
+            <img class="w-[50%] md:w-full mx-auto" src="c2-assets/vegetable-busket.png" alt="">
+        </div>
+        <div class="space-y-5 px-10 text-center md:text-left">
+            <h1 class="md:text-4xl text-2xl font-bold">Get Grocery News!</h1>
+            <p class="md:text-xl text-lg font-semibold">Exclusive training tips, ticks, product deals and more.</p>
+            <input class="md:w-[350px] w-[300px] text-xl px-3 py-2 rounded-lg border-none" type="email" placeholder="Enter email....">
+            <div>
+                <a class="btn bg-nature-primary text-white">Subscribe</a>
             </div>
-            <div class="flex flex-col space-y-10 text-white text-xl">
+        </div>
+        </section>
+        <!-- This is the footer section container -->
+        <div class="flex md:flex-row flex-col justify-between max-w-screen-xl mx-auto pb-32  pt-64">
+            <div class="md:w-[30%] w-full mb-4 ml-3 lg:ml-0">
+                <img class="w-40 mb-3" src="c2-assets/logo-footer.png" alt="">
+                <p class="text-white md:text-xl text-lg">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+            </div>
+            <div class="flex flex-col md:space-y-10 space-y-4 text-white text-xl mb-7 ml-3 lg:ml-0">
                 <a href="">Product</a>
                 <a href="">Services</a>
                 <a href="">Contact Us</a>
-            </div>
-            <div class=" flex flex-col gap-4 justify-end">
+            </div>   
+            <div class=" flex flex-col gap-4 justify-end ml-3 lg:ml-0">
                 <h5 class="text-white">Follow Us</h5>
                 <div class="space-x-4 text-white text-xl">
                     <i class="fa-brands fa-facebook"></i>
